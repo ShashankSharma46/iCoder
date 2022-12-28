@@ -10,8 +10,6 @@
     border-radius: 6px;
 }
 
-input[type=text],
-select,
 textarea {
     width: 100%;
     padding: 12px;
@@ -19,6 +17,27 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+}
+
+#nameInput{
+    padding: 12px;
+    margin-left: 10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 342px;
+}
+
+#emailInput{
+    padding: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 342px;
+}
+
+.emailId{
+    padding: 20px 0 0 0;
 }
 
 label {
@@ -75,20 +94,21 @@ label{
     margin-left: 40px;
 }
 
-#textInput{
+#nameInput{
+    padding: 12px;
+    margin-left: 10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 277px;
+}
+
+#emailInput{
     padding: 12px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 442px;
-}
-
-.emailId{
-    padding: 20px 0 0 0;
-}
-
-.customInput{
-    margin-left: 15px;
+    width: 277px;
 }
 
 label[for=subject]{

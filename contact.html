@@ -27,7 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -45,7 +45,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/contact.html">Contact Us</a>
+                        <a class="nav-link active" href="contact.html">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -59,30 +59,32 @@
         <hr>
         <form>
             <div>
-                <label for="textInput">FirstName:</label>
-                <input id="textInput" class="custom" placeholder="Your name" />
-                <label for="textInput" class="spaceSide">LastName:</label>
-                <input id="textInput" class="custom" placeholder="Your name" />
+                <label for="textInput">Name:</label>
+                <input id="nameInput" placeholder="Your name" />
+                <!-- <label for="textInput" class="spaceSide">LastName:</label>
+                <input type="text" id="textInput" class="custom" placeholder="Your name" /> -->
             </div>
 
             <div class="emailId">
-                <label for="textInput">Email Id:</label>
-                <input id="textInput" class="custom customInput" placeholder="Email Address" />
+                <label for="textInput">EmailId:</label>
+                <input type="text" id="emailInput" placeholder="Email address">
+                <!-- <input id="textInput" class="custom customInput" placeholder="Email Address" /> -->
             </div>
 
             <div>
                 <label for="subject">Massage</label>
-                <textarea id="subject" name="subject" placeholder="Write something..." style="height: 200px;"></textarea>
+                <textarea type="text" id="subject" name="subject" placeholder="Write something..."
+                    style="height: 200px;"></textarea>
             </div>
             <br>
-            <button type="button" class="custom-btn">Submit</button>
+            <button id="submit" type="button" class="custom-btn">Submit</button>
         </form>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
-
+    <script src="contact.js"></script>
 </body>
 
 </html>
